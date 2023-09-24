@@ -28,6 +28,12 @@
                                     <constraint firstAttribute="height" constant="383" id="VCV-hX-Hgw"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We love Cows!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBz-sv-5fE">
+                                <rect key="frame" x="141" y="245" width="111" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -38,7 +44,9 @@
                             <constraint firstItem="x5R-sD-zXn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="XG5-TZ-gM9"/>
                             <constraint firstItem="KSX-wH-Twz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ej4-nc-gyZ"/>
                             <constraint firstItem="KSX-wH-Twz" firstAttribute="top" secondItem="x5R-sD-zXn" secondAttribute="bottom" constant="50" id="ir8-qp-RNt"/>
+                            <constraint firstItem="NBz-sv-5fE" firstAttribute="top" secondItem="x5R-sD-zXn" secondAttribute="bottom" constant="20" id="kW9-Ka-Yq5"/>
                             <constraint firstItem="KSX-wH-Twz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="lWJ-Da-VFX"/>
+                            <constraint firstItem="NBz-sv-5fE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nVR-8d-KEw"/>
                         </constraints>
                     </view>
                 </viewController>
